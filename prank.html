@@ -68,10 +68,11 @@ display: none;
 
   <div class="container">
     <button id="noBtn">Bilkul nahi</button>
-    <button id="yesBtn">Han bahut</button>
+    <button id="yesBtn" onCLICK='h()'>Han bahut</button>
   </div>
 
   <script>
+    function h() {alert(' khushi hui jaan k');}
     const noBtn = document.getElementById("noBtn");
 
     function moveButton() {
